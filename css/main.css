@@ -28,3 +28,19 @@ body{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
+.nav li{
+  list-style-type: none;
+}
+header{
+  background-color: lightgrey;
+}
+
+@media only screen and (min-width: 25em) {
+  .nav li{
+    display: inline;
+  }
+  .nav ul{
+    text-align: center;
+    padding: 1.5em 0 0 0;
+  }
+}
