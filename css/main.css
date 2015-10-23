@@ -31,16 +31,26 @@ body{
 .nav li{
   list-style-type: none;
 }
+.nav a{
+  text-decoration: none;
+}
 header{
   background-color: lightgrey;
 }
+h1{
+  margin: 0;
+  text-align: center;
+}
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 38em) {
   .nav li{
     display: inline;
   }
   .nav ul{
     text-align: center;
-    padding: 1.5em 0 0 0;
+  }
+
+  h1{
+    text-align: left;
   }
 }
