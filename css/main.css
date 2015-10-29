@@ -29,6 +29,14 @@ body{
   padding-right: 1.5rem;
 }
 
+header{
+  background-color: lightgrey;
+}
+h1{
+  margin: 0;
+  text-align: center;
+}
+
 .nav ul{
   margin: 0;
   padding: 0;
@@ -48,12 +56,29 @@ body{
   background-color: #1579db;
   color: #fff;
 }
-header{
+
+.nav-footer ul{
+  padding: 0;
+}
+.nav-footer li{
+  list-style-type: none;
+  display: inline-block;
+}
+
+.nav-footer a{
+  text-decoration: none;
+  color: #1579db;
+}
+footer{
   background-color: lightgrey;
 }
-h1{
-  margin: 0;
-  text-align: center;
+.bar{
+  padding: 1em;
+  background-color: #E2E2E2;
+}
+.top {
+  text-decoration: none;
+  color: #1579db;
 }
 
 @media only screen and (min-width: 25em) {
