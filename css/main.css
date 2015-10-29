@@ -30,6 +30,7 @@ body{
 }
 
 .nav ul{
+  margin: 0;
   padding: 0;
 }
 
@@ -38,6 +39,14 @@ body{
 }
 .nav a{
   text-decoration: none;
+  margin: 0;
+  padding: .75em;
+  color: #1579db;
+  display: block;
+}
+.nav a:hover{
+  background-color: #1579db;
+  color: #fff;
 }
 header{
   background-color: lightgrey;
@@ -47,15 +56,13 @@ h1{
   text-align: center;
 }
 
-@media only screen and (min-width: 38em) {
-  .nav li{
-    display: inline;
-  }
-  .nav ul{
+@media only screen and (min-width: 25em) {
+.nav {
     text-align: center;
   }
 
-  h1{
-    text-align: left;
+.nav li {
+    display: inline-block;
   }
+
 }
