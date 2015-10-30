@@ -37,6 +37,15 @@ h1{
   text-align: center;
 }
 
+figure{
+  margin: 0;
+  padding-top: 1em;
+  background-color: #eeeeee;
+}
+dd{
+  margin: 0 0 1em 0;
+}
+
 .nav ul{
   margin: 0;
   padding: 0;
