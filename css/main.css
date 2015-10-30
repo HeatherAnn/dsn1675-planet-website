@@ -39,7 +39,6 @@ h1{
 
 figure{
   margin: 0;
-  padding-top: 1em;
   background-color: #eeeeee;
 }
 dd{
@@ -57,11 +56,10 @@ dd{
 .nav a{
   text-decoration: none;
   margin: 0;
-  padding: .75em;
   color: #1579db;
   display: block;
 }
-.nav a:hover{
+.nav a:hover, .nav a.active{
   background-color: #1579db;
   color: #fff;
 }
